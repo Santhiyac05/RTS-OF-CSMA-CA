@@ -23,7 +23,7 @@ Real-Time Scenario
 College Wi-Fi Network Example
 
 In a college classroom, multiple students use the same Wi-Fi network simultaneously.
-•	Laptop0 sends assignment data 
+•	Laptop0 sends assignment data
 •	Laptop1 accesses online resources 
 •	Laptop2 transfers files 
 Since all devices share the same wireless medium, CSMA/CA ensures that devices transmit data without collision by checking channel availability before transmission.
@@ -60,29 +60,19 @@ Wireless Router	192.168.0.254
 Simulation Observation:
 Wireless Network Created
 The wireless router and laptops were connected successfully using Wi-Fi communication.
- 
-
+<img width="746" height="383" alt="image" src="https://github.com/user-attachments/assets/cfa8f86d-d298-40d7-9a97-88ef15210b79" />
 
 Ping Transmission Initiated:
 
 ICMP packets were generated simultaneously from all laptops using Command Prompt.
-
- 
-
-
-
-
-
-
-
- 
-
- 
+<img width="745" height="348" alt="image" src="https://github.com/user-attachments/assets/0beb478c-a4b1-447d-8709-6b7c0d58cd6f" />
+<img width="752" height="328" alt="image" src="https://github.com/user-attachments/assets/25ebb39f-d1a8-4664-9e95-44c021dbf7f0" />
+<img width="750" height="297" alt="image" src="https://github.com/user-attachments/assets/a592f6a2-0b8a-4609-972b-f18a8860d2cb" />
 
 Packet Transmission in Simulation Mode:
 
 The Simulation Panel displayed packet forwarding between laptops and the wireless router.
- 
+<img width="772" height="406" alt="image" src="https://github.com/user-attachments/assets/ea255e20-fb8e-4449-85f3-15af44b0ca1d" />
 
 CSMA/CA Operation:
 Coloured envelopes represented:
@@ -90,6 +80,7 @@ Coloured envelopes represented:
 •	Yellow → Packet waiting/transmission 
 •	Red → Busy medium/waiting state 
 This demonstrated collision avoidance in the wireless medium.
+<img width="612" height="487" alt="image" src="https://github.com/user-attachments/assets/18ac22b7-0bd7-4e21-8ba8-0a7499effb9b" />
 
  
 Working Principle:
@@ -126,9 +117,6 @@ Conclusion:
 The CSMA/CA protocol was successfully simulated using Cisco Packet Tracer. Three wireless laptops communicated through a wireless router using ICMP ping packets. The simulation demonstrated how devices sense the wireless channel, wait when the medium is busy, and transmit packets successfully without collision.
 
 The experiment verified reliable wireless communication in a real-time network environment.
-
-
-
 
 QUESTION BANK – CSMA/CA REAL-TIME SCENARIO
 PART A – Fill in the Blanks
